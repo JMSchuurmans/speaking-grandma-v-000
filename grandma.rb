@@ -14,7 +14,6 @@
 
 
 def speak_to_grandma(conversation)
-  puts "#{conversation}"
   if conversation == "I LOVE YOU GRANDMA!"
     "I LOVE YOU TOO PUMPKIN!"
   elsif conversation == conversation.upcase
