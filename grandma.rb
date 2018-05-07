@@ -13,7 +13,7 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 
 
-def speak_to_grandma(conversation
+def speak_to_grandma(conversation)
   puts #{conversation}
   if conversation == conversation.upcase
     "NO, NOT SINCE 1938!"
