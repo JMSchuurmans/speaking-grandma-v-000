@@ -15,11 +15,11 @@
 
 def speak_to_grandma(conversation)
   puts "#{conversation}"
-  if conversation == conversation.upcase
-    "NO, NOT SINCE 1938!"
+  if conversation == "I LOVE YOU GRANDMA!"
+    "I LOVE YOU TOO PUMPKIN!"
   elsif conversation != conversation.upcase
     "HUH?! SPEAK UP, SONNY!"
-  else conversation == "I LOVE YOU GRANDMA!"
-    return "I LOVE YOU TOO PUMPKIN!"
+  elsif conversation == conversation.upcase
+    return "NO, NOT SINCE 1938!"
   end
 end
