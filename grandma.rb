@@ -17,7 +17,7 @@ def speak_to_grandma(conversation)
   if conversation == conversation.upcase
     "NO, NOT SINCE 1938!"
   elsif conversation != conversation.upcase
-    "HUH?! SPEAK UP SONNY!"
+    "HUH?! SPEAK UP, SONNY!"
   else conversation = "I LOVE YOU GRANDMA!"
     puts "I LOVE YOU TOO PUMPKIN!"
   end
