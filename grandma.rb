@@ -15,9 +15,9 @@
 
 def speak_to_grandma(conversation)
   puts "#{conversation}"
-  if conversation == upcase
+  if conversation == .upcase
     "NO, NOT SINCE 1938!"
-  elsif conversation != upcase
+  elsif conversation != .upcase
     "HUH?! SPEAK UP, SONNY!"
   else conversation == "I LOVE YOU GRANDMA!"
     return "I LOVE YOU TOO PUMPKIN!"
