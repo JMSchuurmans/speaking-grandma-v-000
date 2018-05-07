@@ -13,9 +13,9 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 
 
-def speak_to_grandma(conversation = "I LOVE YOU TOO PUMPKIN!")
+def speak_to_grandma(conversation)
   puts "#{conversation}"
-  if conversation == conversation.upcase
+  if conversation == upcase
     "NO, NOT SINCE 1938!"
   elsif conversation != conversation.upcase
     "HUH?! SPEAK UP, SONNY!"
